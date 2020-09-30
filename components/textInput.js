@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, View, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { Text, Input } from '@ui-kitten/components';
 
 const FormText = (props) => {

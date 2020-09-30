@@ -1,7 +1,6 @@
 import React from 'react';
-import { TextInput, View, StyleSheet } from 'react-native';
-import Slider from 'react-native-slider';
-import { theme, config } from '../constants';
+import { View, StyleSheet } from 'react-native';
+import { config } from '../constants';
 import { SliderLabel } from './SliderLabel';
 import { SliderComp } from './slider';
 

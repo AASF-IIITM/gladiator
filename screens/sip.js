@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
 import { Button } from "@ui-kitten/components";
-import { Avatar, Title, Paragraph } from "react-native-paper";
+import { Avatar } from "react-native-paper";
 import { FormText } from "../components/textInput";
 import { calculateResult } from "../calculations/sip";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
