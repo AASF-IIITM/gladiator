@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  TextInput,
   View,
   StyleSheet,
   Image,
@@ -8,12 +7,7 @@ import {
   Text,
   KeyboardAvoidingView,
 } from 'react-native';
-import Slider from 'react-native-slider';
-import { theme, config } from '../constants';
-import { SliderLabel } from './SliderLabel';
-import { SliderComp } from './slider';
-import Accordian from './accordian';
-import data from '../data/sip.json';
+import { theme } from '../constants';
 
 const { width, height } = Dimensions.get('window');
 

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet, Dimensions, TouchableOpacity } from 'react-native';
-import Slider from 'react-native-slider';
-import { theme, config } from '../constants';
-import { SliderLabel } from './SliderLabel';
-import { SliderComp } from './slider';
+import { theme } from '../constants';
 
 const { width, height } = Dimensions.get('window');
 

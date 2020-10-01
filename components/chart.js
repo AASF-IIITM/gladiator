@@ -5,16 +5,8 @@ import Svg from 'react-native-svg';
 import { ApproximateNumberInWords } from 'number-formatter';
 import { theme } from '../constants';
 
-import 'intl';
-import 'intl/locale-data/jsonp/en';
 
 const { width, height } = Dimensions.get('window');
-
-const numberFormat = (value) =>
-  new Intl.NumberFormat('en-IN', {
-    style: 'currency',
-    currency: 'INR',
-  }).format(value);
 
 /*
 renderTable(tableData){
